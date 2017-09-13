@@ -1,0 +1,14 @@
+jmp init
+f: 
+add $5, %r1
+ret
+init:
+mov $0, %r1
+print %r1
+call f
+print %r1
+call f
+print %r1	
+call f 
+print %r1
+hlt

@@ -1,0 +1,2 @@
+make                     
+./machine test1.asm
